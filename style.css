@@ -56,6 +56,13 @@ body {
     animation: updown 2.5s ease-in-out infinite;
   }
   
+  .mail {
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+    margin-top: 1rem;
+  }
+  
   @keyframes updown {
     0%   { transform: translateY(0); }
     50%  { transform: translateY(-15px); }
